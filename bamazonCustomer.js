@@ -80,8 +80,6 @@ function updateProduct(ID,NUM){
             }
         ],
         function(err, res) {
-          
-          // Call deleteProduct AFTER the UPDATE completes
           connection.end();
         }
     )

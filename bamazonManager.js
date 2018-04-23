@@ -140,8 +140,7 @@ function addProduct(){
             product_name: res.item,
             price: parseInt(res.price),
             department_name: res.department,
-            // Ask here
-            item_id: asad
+            item_id: (res.item_id.length+1)
             },
             function(err, res) {
             console.log(res.affectedRows + " product posted for auction!\n");
